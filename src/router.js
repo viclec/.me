@@ -12,7 +12,7 @@ export default new Router({
       component: Home
     },
     {
-      path: '/repos/:id',
+      path: '/repos',
       name: 'repos',
       component: () => import('./views/Repos.vue')
     }
